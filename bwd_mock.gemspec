@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = BwdMock::VERSION
   gem.authors       = ["Jess Brown"]
   gem.email         = ["jess@brownwebdesign.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Internal tool for BrownWebsites.com}
+  gem.summary       = %q{Mock rails templates in Serve}
+  gem.homepage      = "www.github.com/jess/bwd_mock"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
