@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["jess@brownwebdesign.com"]
   gem.description   = %q{Internal tool for BrownWebsites.com}
   gem.summary       = %q{Mock rails templates in Serve}
-  gem.homepage      = "www.github.com/jess/bwd_mock"
+  gem.homepage      = "http://www.github.com/jess/bwd_mock"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
