@@ -32,11 +32,45 @@ module BwdMock
     def setting
       MockSetting.new
     end
+
+    def name
+      "Jess Brown"
+    end
+
+
   end
 
   class MockSetting
     def company
       "Company Name"
+    end
+
+    def phone
+      "770-266-5849"
+    end
+
+    def fax
+      "770-266-5850"
+    end
+
+    def address
+      "1390 Giles Rd."
+    end
+
+    def address
+      ""
+    end
+
+    def city
+      "Monroe"
+    end
+
+    def state
+      "GA"
+    end
+
+    def zip
+      "30655"
     end
   end
 end
