@@ -57,7 +57,7 @@ module BwdMock
       "1390 Giles Rd."
     end
 
-    def address
+    def address2
       ""
     end
 
